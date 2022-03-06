@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 25rem;
+  background: url('https://adtima-media.zascdn.me/2022/03/9137879b-e3a0-488e-b078-a0024ffc3647.jpg')
+    no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.banner-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content img {
+  width: 10rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 10rem;
+  }
+}

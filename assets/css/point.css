@@ -1,0 +1,45 @@
+.group-user {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content-radius {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 5rem;
+  width: 25rem;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.content-radius::before {
+  position: absolute;
+  content: '';
+  bottom: -20%;
+  left: 40%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.border-brown {
+  height: 5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.more {
+  position: absolute;
+  align-items: center;
+  right: 1%;
+}
+@media (max-width: 768px) {
+  .border-brown {
+    background-color: white;
+    border: 3px solid brown;
+  }
+}

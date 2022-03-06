@@ -54,3 +54,10 @@ ul {
 .step.current-step span {
   color: #21d4fd;
 }
+
+@media (max-width: 768px) {
+  .w-25,
+  .w-75 {
+    width: 100%;
+  }
+}
