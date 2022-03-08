@@ -1,0 +1,18 @@
+.more {
+  position: absolute;
+  content: '';
+  top: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .price {
+    border: 1px solid black;
+  }
+
+  .more {
+    top: 100%;
+  }
+}
